@@ -64,7 +64,7 @@ const LoginSection: React.FC<LoginSectionProps> = ({ setOpen }) => {
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: "github",
       options: {
-        redirectTo,
+        redirectTo:"https://erwrhfwqylycfglxgvcm.supabase.co/auth/v1/callback",
         queryParams: {
           prompt: "consent",
         },
