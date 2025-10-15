@@ -25,7 +25,6 @@ const MainBanner = () => {
           className="mt-2 inline-flex items-center rounded-full bg-gradient-to-br from-orange-500 to-orange-600 px-3 py-0.5 text-sm text-white shadow-md ring-2 ring-transparent hover:from-blue-500 hover:to-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
           <MousePointerClickIcon className="mr-1 size-4" />
-          Click here
         </Link>
       </div>
     </div>
