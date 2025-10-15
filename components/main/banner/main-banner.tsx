@@ -19,12 +19,6 @@ const MainBanner = () => {
         </Link>
       </div> */}
       <div className="flex-row items-center gap-x-1 gap-y-2 px-3.5 py-2 text-sm text-gray-800 shadow-sm lg:hidden">
-        <p className="font-semibold">👋 Hey, I’m Tim.</p>
-        <p>
-          I built this with{" "}
-          <span className="font-semibold">Next.js & Supabase.</span>
-        </p>
-        <p>Need dev? Let&apos;s chat!</p>
         <Link
           href="https://timtb.dev"
           target="_blank"
